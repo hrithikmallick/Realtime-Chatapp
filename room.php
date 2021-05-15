@@ -19,9 +19,15 @@ $roomname = $_GET['roomname'];
             background: url("chatback.png");
 
         }
+         @media only screen and (max-width: 600px) {
+            #urlo{
+                display:none;
+            }
+            }
+        }
     </style>
     <script>
-        // var name = prompt("enter your name");
+       
     </script>
 </head>
 
